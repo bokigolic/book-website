@@ -19,16 +19,21 @@ ul {
 a {
   color: #333;
   text-decoration: none;
+  
 }
 
 h1,
 h2 {
   font-weight: 300;
   line-height: 1.2;
+
 }
 
 p {
-  margin: 10px 0;
+  margin: 40px 0;
+
+
+
 }
 
 img {
@@ -47,9 +52,12 @@ img {
   position: fixed;
   top:0;
   padding: 0 30px;
+  
 }
 .navbar ul{
   display: flex;
+  
+  
 }
 .navbar ul li a {
   color: #fff;
@@ -60,4 +68,31 @@ img {
 .navbar ul li a:hover{
   border-bottom: 2px solid #28a745;
 
+}
+
+.navbar .logo{
+  font-weight: 400;
+}
+
+/* header*/
+
+.hero{
+  background-image: url(../img/grad.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color:#fff;
+  position: relative;
+ 
+
+
+}
+
+.hero .content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
 }
