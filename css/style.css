@@ -120,3 +120,12 @@ img {
 .hero * {
 z-index: 10;
 }
+
+/*cases*/
+
+.cases img:hover{
+
+  opacity: 0.7;
+  cursor: pointer;
+}
+

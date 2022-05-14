@@ -1,6 +1,6 @@
 /*Text color*/
 
-.text-primary{
+.text-primary {
   color: #28a745;
 }
 
@@ -10,7 +10,7 @@
 
 /*button*/
 
-.btn{
+.btn {
   display: inline-block;
   cursor: pointer;
   padding: 10px 30px;
@@ -18,29 +18,64 @@
   color: #fff;
   border-radius: 5px;
   border: none;
-
 }
 
-.btn:hover{
+.btn:hover {
   opacity: 0.8;
 }
 
-.btn-primary{
+.btn-primary {
   background-color: #28a745;
   columns: white;
 }
 
-.btn-secondary{
+.btn-secondary {
   background-color: #0284d0;
-  color:#fff;
+  color: #fff;
 }
 
-.btn-light{
+.btn-light {
   background-color: #f4f4f4;
-color: #333;
+  color: #333;
 }
 
-.btn-dark{
+.btn-dark {
   background-color: #333;
   color: #fff;
+}
+
+/*cases*/
+
+.section-header {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.section-header h2 {
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.section-padding{
+  padding: 20px 20px 40px;
+
+}
+
+/*flex grid */
+
+.flex-grid .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+.flex-grid .column{
+  flex: 25%;
+  flex-basis: 25%;
+  padding: 0 4px;
 }
