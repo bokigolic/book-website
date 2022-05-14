@@ -7,3 +7,40 @@
 .text-secondary {
   color: #0284d0;
 }
+
+/*button*/
+
+.btn{
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px 30px;
+  background-color: #28a745;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+
+}
+
+.btn:hover{
+  opacity: 0.8;
+}
+
+.btn-primary{
+  background-color: #28a745;
+  columns: white;
+}
+
+.btn-secondary{
+  background-color: #0284d0;
+  color:#fff;
+}
+
+.btn-light{
+  background-color: #f4f4f4;
+color: #333;
+}
+
+.btn-dark{
+  background-color: #333;
+  color: #fff;
+}
