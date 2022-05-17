@@ -101,11 +101,6 @@ img {
 .hero .content h1{
   font-size: 55px;
 }
-.hero .content p{
-  font-size: 23px;
-  margin: 20px 0 30px;
-  max-width: 600px;
-}
 
 .hero::before{
   content: "";
@@ -117,9 +112,7 @@ img {
   background-color: rgba(0, 0 , 0, .6);
 }
 
-.hero * {
-z-index: 10;
-}
+
 
 /*cases*/
 
@@ -127,5 +120,43 @@ z-index: 10;
 
   opacity: 0.7;
   cursor: pointer;
+}
+
+.solution img{
+  padding: 40px 0;
+}
+
+.solution .column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  position: relative;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+
+.solution h4{
+  
+  font-size:50px;
+  position:absolute;
+  top: -2200%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  text-shadow: 4px 2px #ff0000;
+}
+
+.solution p{
+
+  font-size:20px;
+  position:absolute;
+  top:-680%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
